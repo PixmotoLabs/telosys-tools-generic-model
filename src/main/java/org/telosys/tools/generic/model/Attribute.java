@@ -520,5 +520,17 @@ public interface Attribute {
 	 * @since v 3.0.0
 	 */
 	public boolean isUsedInSelectedLinks(); 
+	
+	/**
+	 * Returns TRUE if 'insertable'
+	 * @returns
+	 */
+	public boolean isInsertable() ;
+	
+	/**
+	 * Returns TRUE if 'updatable'
+	 * @return
+	 */
+	public boolean isUpdatable() ;
 
 }
